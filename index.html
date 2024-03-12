@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سجــل وزنــــك يا جيماوي</title>
+    <link rel="icon" href="gym.icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="image">
+        <img src="GYMAWY.png">
+    </div>
+
+    <div class="text">
+        <span>سجــــــــــــــــل وزنــــــك يا جيمــــــاوي هنـــــــا </span>
+    </div>
+    
+
+    <table id="table1">
+        <tr class="bigger purple">
+            <td> الأول</td>
+            <td> : الأسبــــــــــوع </td>
+        </tr>
+
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table1', 'averageCell1')" onblur="checkInput(this)" onclick="onclick()"></td>
+            <td>السبــــــــــت</td>
+        </tr>
+
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table1', 'averageCell1')" onblur="checkInput(this)" onclick="onclick()"></td>
+            <td>الأحـــــــــد</td>
+        </tr>
+
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table1', 'averageCell1')" onblur="checkInput(this)" onclick="onclick()"></td>
+            <td>الإثنيـــــــــن</td>
+        </tr>
+
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table1', 'averageCell1')" onblur="checkInput(this)" onclick="onclick()"></td>
+            <td>التلاتــــــــــاء</td>
+        </tr>
+
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table1', 'averageCell1')" onblur="checkInput(this)" onclick="onclick()"></td>
+            <td>الأربعـــــــــاء</td>
+        </tr>
+
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table1', 'averageCell1')" onblur="checkInput(this)" onclick="onclick()"></td>
+            <td>الخميــــــــس</td>
+        </tr>
+
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table1', 'averageCell1')" onblur="checkInput(this)" onclick="onclick()"></td>
+            <td>الجمعـــــــــــه</td> 
+        </tr>
+
+        <tr>
+            <td id="averageCell1"></td>
+            <td class="purple">متـــــوسط الأسبـــــوع</td>
+        </tr>
+    </table>
+
+    <table class="second" id="table2">
+        <tr class="bigger purple">
+            <td> الأول</td>
+            <td> : الأسبــــــــــوع </td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table2', 'averageCell2')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>السبــــــــــت</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table2', 'averageCell2')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>الأحـــــــــد</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table2', 'averageCell2')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>الإثنيـــــــــن</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table2', 'averageCell2')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>التلاتــــــــــاء</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table2', 'averageCell2')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>الأربعـــــــــاء</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table2', 'averageCell2')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>الخميــــــــس</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table2', 'averageCell2')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>الجمعـــــــــــه</td>
+        </tr>
+    
+        <tr>
+            <td id="averageCell2"></td>
+            <td class="purple">متـــــوسط الأسبـــــوع</td>
+        </tr>
+    </table>
+
+    <table class="second" id="table3">
+        <tr class="bigger purple">
+            <td> الأول</td>
+            <td> : الأسبــــــــــوع </td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table3', 'averageCell3')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>السبــــــــــت</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table3', 'averageCell3')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>الأحـــــــــد</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table3', 'averageCell3')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>الإثنيـــــــــن</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table3', 'averageCell3')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>التلاتــــــــــاء</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table3', 'averageCell3')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>الأربعـــــــــاء</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table3', 'averageCell3')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>الخميــــــــس</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table3', 'averageCell3')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>الجمعـــــــــــه</td>
+        </tr>
+    
+        <tr>
+            <td id="averageCell3"></td>
+            <td class="purple">متـــــوسط الأسبـــــوع</td>
+        </tr>
+    </table>
+
+    <table class="second footer" id="table4">
+        <tr class="bigger purple">
+            <td> الأول</td>
+            <td> : الأسبــــــــــوع </td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table4', 'averageCell4')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>السبــــــــــت</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table4', 'averageCell4')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>الأحـــــــــد</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table4', 'averageCell4')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>الإثنيـــــــــن</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table4', 'averageCell4')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>التلاتــــــــــاء</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table4', 'averageCell4')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>الأربعـــــــــاء</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table4', 'averageCell4')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>الخميــــــــس</td>
+        </tr>
+    
+        <tr>
+            <td><input type="number" oninput="calculateAverage('table4', 'averageCell4')" onblur="checkInput(this)"
+                    onclick="onclick()" class="secondinput"></td>
+            <td>الجمعـــــــــــه</td>
+        </tr>
+    
+        <tr>
+            <td id="averageCell4"></td>
+            <td class="purple">متـــــوسط الأسبـــــوع</td>
+        </tr>
+    </table>
+
+    <div class="image">
+        <img src="GYMAWY.png">
+    </div>
+
+    <div class="text" style="font-weight: 600;">
+        <span>مــــــــــــــــــع الســــــــــــــلامـــــة يـــــــا صاحبـــــــــــــــــــي</span>
+    </div>
+
+
+
+    <script>
+
+    function checkInput(input) {
+        // Remove bottom border if input is not empty
+        if (input.value.trim() !== '') {
+            input.style.borderBottom = '2px solid transparent';
+        } else {
+            // Add bottom border if input is empty
+            input.style.borderBottom = '2px solid #e68424';
+        }
+    }
+    function calculateAverage(tableId, averageCellId) {
+        // Get all input elements within the current form
+        var inputs = document.getElementById(tableId).querySelectorAll('input[type="number"]');
+        // Calculate the sum of the input values
+        var sum = 0;
+        for (var i = 0; i < inputs.length; i++) {
+            sum += parseFloat(inputs[i].value) || 0;
+        }
+
+        // Calculate the average by dividing the sum by the number of inputs with values
+        var count = Array.from(inputs).filter(input => input.value.trim() !== '').length;
+        var average = count === 0 ? 0 : sum / count;
+
+        // Update the content of the average cell for the current table
+        document.getElementById(averageCellId).textContent = '' + average.toFixed(2);
+    }
+
+        for (var i = 1; i <= 4; i++) {
+                calculateAverage('table' + i, 'averageCell' + i);
+            }
+
+    
+    </script>
+
+
+</body>
+</html>

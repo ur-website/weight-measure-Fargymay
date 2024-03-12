@@ -1,0 +1,10 @@
+colors 
+
+1. orange 
+#e68424
+
+2. purple 
+#6506ae
+
+3. gray 
+#1f0621
